@@ -1,0 +1,44 @@
+{
+  "version": 1,
+  "levelIds": ["level-01", "level-02", "level-03"],
+  "images": {
+    "bird.red": { "src": "images/bird-red.png", "w": 46, "h": 46, "anchor": [0.5, 0.5] },
+    "bird.yellow": { "src": "images/bird-yellow.png", "w": 42, "h": 42, "anchor": [0.5, 0.5] },
+    "bird.blue": { "src": "images/bird-blue.png", "w": 34, "h": 34, "anchor": [0.5, 0.5] },
+
+    "block.wood": { "src": "images/block-wood.png", "w": 60, "h": 60, "anchor": [0.5, 0.5], "slice": [18, 18, 18, 18] },
+    "block.stone": { "src": "images/block-stone.png", "w": 60, "h": 60, "anchor": [0.5, 0.5], "slice": [18, 18, 18, 18] },
+    "block.glass": { "src": "images/block-glass.png", "w": 60, "h": 60, "anchor": [0.5, 0.5], "slice": [18, 18, 18, 18] },
+
+    "pig.normal": { "src": "images/pig-normal.png", "w": 48, "h": 48, "anchor": [0.5, 0.5] },
+    "pig.helmet": { "src": "images/pig-helmet.png", "w": 52, "h": 52, "anchor": [0.5, 0.5] },
+
+    "sling": { "src": "images/slingshot.png", "w": 84, "h": 130, "anchor": [0.5, 0.92] },
+    "sling.band": { "src": "images/sling-band.png", "w": 16, "h": 60, "anchor": [0.5, 0.5] },
+    "bg.level1": { "src": "images/bg-level1.jpg", "w": 1280, "h": 720 },
+    "bg.level2": { "src": "images/bg-level2.jpg", "w": 1280, "h": 720 },
+    "bg.level3": { "src": "images/bg-level3.jpg", "w": 1280, "h": 720 }
+  },
+  "audio": {
+    "sfx.launch": { "src": "audio/launch.mp3" },
+    "sfx.stretch": { "src": "audio/stretch.mp3" },
+    "sfx.hit_wood": { "src": "audio/hit-wood.mp3" },
+    "sfx.hit_stone": { "src": "audio/hit-stone.mp3" },
+    "sfx.hit_glass": { "src": "audio/hit-glass.mp3" },
+    "sfx.block_break": { "src": "audio/block-break.mp3" },
+    "sfx.pig_pop": { "src": "audio/pig-pop.mp3" },
+    "sfx.skill": { "src": "audio/skill.mp3" },
+    "sfx.win": { "src": "audio/win.mp3" },
+    "sfx.lose": { "src": "audio/lose.mp3" }
+  },
+  "physics": {
+    "bird.red": { "mass": 5, "restitution": 0.4, "friction": 0.5 },
+    "bird.yellow": { "mass": 4, "restitution": 0.4, "friction": 0.5 },
+    "bird.blue": { "mass": 3, "restitution": 0.45, "friction": 0.5 },
+    "block.wood": { "mass": 3, "hp": 70, "restitution": 0.2, "friction": 0.6 },
+    "block.stone": { "mass": 9, "hp": 220, "restitution": 0.1, "friction": 0.85 },
+    "block.glass": { "mass": 2, "hp": 28, "restitution": 0.3, "friction": 0.4 },
+    "pig.normal": { "mass": 4, "hp": 45 },
+    "pig.helmet": { "mass": 5, "hp": 100 }
+  }
+}

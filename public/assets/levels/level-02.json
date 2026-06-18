@@ -1,0 +1,23 @@
+{
+  "id": "level-02",
+  "bg": "bg.level2",
+  "sling": { "x": 200, "y": 560 },
+  "birds": ["bird.red", "bird.yellow", "bird.red"],
+  "goal": {
+    "stars": {
+      "3": "birdsLeft>=2",
+      "2": "birdsLeft>=1",
+      "1": "win"
+    }
+  },
+  "objects": [
+    { "type": "block", "id": "block.stone", "x": 900, "y": 668, "w": 24, "h": 104, "angle": 0 },
+    { "type": "block", "id": "block.stone", "x": 1040, "y": 668, "w": 24, "h": 104, "angle": 0 },
+    { "type": "block", "id": "block.wood", "x": 970, "y": 604, "w": 164, "h": 24, "angle": 0 },
+    { "type": "block", "id": "block.glass", "x": 920, "y": 560, "w": 24, "h": 64, "angle": 0 },
+    { "type": "block", "id": "block.glass", "x": 1020, "y": 560, "w": 24, "h": 64, "angle": 0 },
+    { "type": "block", "id": "block.wood", "x": 970, "y": 520, "w": 124, "h": 24, "angle": 0 },
+    { "type": "pig", "id": "pig.normal", "x": 970, "y": 660 },
+    { "type": "pig", "id": "pig.helmet", "x": 970, "y": 484 }
+  ]
+}

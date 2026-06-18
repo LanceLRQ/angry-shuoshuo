@@ -1,0 +1,28 @@
+{
+  "id": "level-03",
+  "bg": "bg.level3",
+  "sling": { "x": 195, "y": 560 },
+  "birds": ["bird.blue", "bird.yellow", "bird.red", "bird.red"],
+  "goal": {
+    "stars": {
+      "3": "birdsLeft>=2",
+      "2": "birdsLeft>=1",
+      "1": "win"
+    }
+  },
+  "objects": [
+    { "type": "block", "id": "block.stone", "x": 880, "y": 668, "w": 24, "h": 104, "angle": 0 },
+    { "type": "block", "id": "block.stone", "x": 1000, "y": 668, "w": 24, "h": 104, "angle": 0 },
+    { "type": "block", "id": "block.wood", "x": 940, "y": 604, "w": 144, "h": 24, "angle": 0 },
+    { "type": "block", "id": "block.glass", "x": 940, "y": 560, "w": 24, "h": 64, "angle": 0 },
+    { "type": "pig", "id": "pig.normal", "x": 940, "y": 660 },
+
+    { "type": "block", "id": "block.wood", "x": 1100, "y": 680, "w": 24, "h": 80, "angle": 0 },
+    { "type": "block", "id": "block.wood", "x": 1200, "y": 680, "w": 24, "h": 80, "angle": 0 },
+    { "type": "block", "id": "block.glass", "x": 1150, "y": 628, "w": 124, "h": 24, "angle": 0 },
+    { "type": "block", "id": "block.wood", "x": 1150, "y": 600, "w": 24, "h": 32, "angle": 0 },
+    { "type": "pig", "id": "pig.helmet", "x": 1150, "y": 670 },
+
+    { "type": "block", "id": "block.stone", "x": 1080, "y": 560, "w": 100, "h": 20, "angle": 0.3 }
+  ]
+}
